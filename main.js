@@ -6,8 +6,8 @@ const isMac = process.platform === 'darwin';
 function createMainWindow() {
     const mainWindow = new BrowserWindow({
         title: 'ImageScalePro',
-        width: 500,
-        height: 600
+        width: 710,
+        height: 710
     });
 
     //Show dev tools in in development
