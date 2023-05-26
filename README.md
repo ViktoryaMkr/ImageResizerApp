@@ -36,11 +36,11 @@ To use Image Resizer:
 ## Contributing
 We welcome contributions to enhance Image Resizer. To contribute, please follow these steps:
 
-1 Fork the repository.
-2 Create a new branch for your feature or bug fix.
-3 Make your modifications.
-4 Commit and push your changes to your forked repository.
-5 Submit a pull request, describing your changes.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your modifications.
+4. Commit and push your changes to your forked repository.
+5. Submit a pull request, describing your changes.
 
 ## License
 This project is licensed under the *MIT License*.
