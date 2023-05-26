@@ -1,5 +1,7 @@
 # ImageScalePro
-Desktop app made with Electron that allows to resize images. ImageScalePro is a user-friendly desktop app built with Electron that allows users to conveniently resize images. With a simple and intuitive interface, users can open image files, specify the desired dimensions, and quickly resize them for various purposes. By eliminating the need for complex editing software or online tools, Image Resizer simplifies the process, making image resizing effortless and accessible.
+ImageScalePro is a user-friendly desktop app built with Electron that allows users to conveniently resize images. With a simple and intuitive interface, users can open image files, specify the desired dimensions, and quickly resize them for various purposes. By eliminating the need for complex editing software or online tools, Image Resizer simplifies the process, making image resizing effortless and accessible.
+
+![image](https://github.com/ViktoryaMkr/ImageResizerApp/assets/64432981/0cf381b4-6c72-4666-9aac-5d3abb58b064)
 
 ## Installation
 ### 1. **Prerequisites**
