@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
-    <script src="js/app.js"></script>
     <link rel="stylesheet" href="css/app.css">
     <title>ImageScalePro</title>
 </head>
@@ -14,27 +13,23 @@
 <body>
     <div class="main">
         <div class="main-container">
-
-
-
             <div class="select-div">
                 <label class="select-label">
                     <span class="select-text">Select an image</span>
-                    <input id="img" type="file" class="hidden" />
+                    <input id="select-img" type="file" />
                 </label>
             </div>
 
-            <form id="img-form" class="">
+            <form id="img-form">
                 <div class="input-container">
-                    <label class="">Width</label>
-                    <input type="number" name="width" id="width" class="" placeholder="Enter in pixels" />
+                    <label>Width</label>
+                    <input type="number" name="width" id="width" placeholder="Enter in pixels" />
                 </div>
 
                 <div class="input-container">
-                    <label class="">Height</label>
-                    <input type="number" name="height" id="height" class="" placeholder="Enter in pixels" />
+                    <label>Height</label>
+                    <input type="number" name="height" id="height" placeholder="Enter in pixels" />
                 </div>
-
 
                 <div class="input-container btn-container">
                     <button type="submit" class="btn">
@@ -43,10 +38,11 @@
                 </div>
 
             </form>
-            <p class="file-text"><strong>File: </strong><span id="filename"></span></p>
+            <p class="file-text"><strong>File selected: </strong><span id="filename"></span></p>
             <p class="file-text"><strong>Output: </strong><span id="output-path"></span></p>
         </div>
     </div>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
